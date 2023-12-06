@@ -1,9 +1,10 @@
-function limpar (){
-    document.getElementById('display').value = ' ';
-}
+
 function valor(value){
     document.getElementById('display').value += value;
 }
-function calculate(){
+function calcula(){
     document.getElementById('display').value = eval(document.getElementById('display').value);
+}
+function limpar (){
+    document.getElementById('display').value = ' ';
 }
