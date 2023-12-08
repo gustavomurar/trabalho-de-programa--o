@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(to bottom right, rgb(176, 132, 51), rgb(0, 0, 0));
+}
+
+#display {
+    max-width: 210px;
+    font-size: 30px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 20px;
+}
+
